@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/coracoes.png" alt="três corações" />
+        <h1 class="menu-titulo">AluraGeek</h1>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="container-all">
+                <section class="section-container">
+                    <div class="title-container">
+                        <h2 class="title-container__products">Meus Produtos:</h2>
+                    </div>
+                    <div data-product class="products-container">
+                        <div class="no-products" style="display: none;">
+                            <p>Nenhum produto foi adicionado.</p>
+                        </div>
+
+                        <div class="products-columns">
+                            <div class="product-card" id="product-1">
+                                <div class="container-img">
+                                    <img class="star-wars-img" src="./assets/star-wars-head.jpeg"
+                                        alt="Caneca Stormtrooper" />
+                                </div>
+                                <div class="title-product">Caneca Stormtrooper</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 80,00 </div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-card" id="product-2">
+                                <div class="container-img">
+                                    <img class="video-game-img" src="./assets/old-video-game.png"
+                                        alt="Imagem Game Boy Classic" />
+                                </div>
+
+                                <div class="title-product">Game Boy Classic</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 120,00</div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-card" id="product-3">
+                                <div class="container-img">
+                                    <img class="star-wars-img" src="./assets/star-wars-head.jpeg"
+                                        alt="Caneca Stormtrooper" />
+                                </div>
+
+                                <div class="title-product">Caneca Stormtrooper</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 80,00 </div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-card" id="product-4">
+                                <div class="container-img">
+                                    <img class="video-game-img" src="assets/old-video-game.png"
+                                        alt="Imagem Game Boy Classic" />
+                                </div>
+
+                                <div class="title-product">Game Boy Classic</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 120,00</div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-card" id="product-5">
+                                <div class="container-img">
+                                    <img class="star-wars-img" src="assets/star-wars-head.jpeg"
+                                        alt="Caneca Stormtrooper" />
+                                </div>
+
+                                <div class="title-product">Caneca Stormtrooper</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 80,00</div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-card" id="product-6">
+                                <div class="container-img">
+                                    <img class="video-game-img" src="assets/old-video-game.png"
+                                        alt="Imagem Game Boy Classic" />
+                                </div>
+
+                                <div class="title-product">Game Boy Classic</div>
+                                <div class="container-value">
+                                    <div class="value">R$ 120,00</div>
+                                    <button class="icon-trash-button">
+                                        <img class="icon-trash" src="assets/trash.png" alt="Imagem lixeira" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <section class="forms-products">
+                <form class="products-container__3" data-form>
+                    <h2 class="title-container__products">Adicionar Produtos:</h2>
+
+                    <div class="forms">
+                        <input class="input-name" type="text" placeholder="Nome do Produto" data-name />
+
+                        <input class="input-value" type="number" placeholder="Valor do Produto" data-price />
+
+                        <input class="input-file" type="text" placeholder="URL da Imagem" data-image />
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button-add button">Adicionar</button>
+                        <button class="button-clean button">Limpar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <img src="./assets/coracoes.png" alt="três corações" />
+            <p class="footer">AluraGeek</p>
+        </div>
+        <p class="title-footer">Desenvolvido por Jessica Santos</p>
+        <p class="subtitle-footer">Alura 2024</p>
+    </footer>
+
+    <script type="module" src="./js/controllers/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "name": "Caneca Stormtrooper",
+            "price": 80,
+            "image": "./assets/star-wars-head.jpeg",
+            "id": "1"
+        },
+        {
+            "name": "Game Boy Classic",
+            "price": 120,
+            "image": "./assets/old-video-game.png",
+            "id": "2"
+        },
+        {
+            "name": "Caneca Stormtrooper",
+            "price": 80,
+            "image": "./assets/star-wars-head.jpeg",
+            "id": "3"
+        },
+        {
+            "name": "Game Boy Classic",
+            "price": 120,
+            "image": "./assets/old-video-game.png",
+            "id": "4"
+        },
+        {
+            "name": "Caneca Stormtrooper",
+            "price": 80,
+            "image": "./assets/star-wars-head.jpeg",
+            "id": "5"
+        },
+        {
+            "name": "Game Boy Classic",
+            "price": 120,
+            "image": "./assets/old-video-game.png",
+            "id": "6"
+        }
+    ]
+}
